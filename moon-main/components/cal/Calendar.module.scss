@@ -1,0 +1,56 @@
+.calendar {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 330px;
+    h2 {
+        text-align: center;
+        color: #6900b5;
+        font-size: 24px;
+    }
+
+    .controls {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        button {
+            font-size: 18px;
+            padding: 5px 10px;
+            background-color: #b05fe9;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #6900b5;
+            }
+        }
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th {
+            padding: 8px;
+            text-align: center;
+            background-color: #b05fe9;
+            color: #fff;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: #6900b5;
+            background: #f8f2ff;
+        }
+
+        td.empty {
+            color: #b260ed;
+        }
+    }
+}
